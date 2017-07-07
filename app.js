@@ -12,8 +12,8 @@ var express          = require( 'express' )
   app.use(require('morgan')('combined'));
 // API Access link for creating client ID and secret:
 // https://code.google.com/apis/console/
-var GOOGLE_CLIENT_ID      = "570609486769-cpvj79ktob43ls04smp86hl4laavk68l.apps.googleusercontent.com"
-  , GOOGLE_CLIENT_SECRET  = "GTqQIvQLuTMZffRGl1EGvUc1";
+var GOOGLE_CLIENT_ID      = "Put your google client ID here"
+  , GOOGLE_CLIENT_SECRET  = "Put your client secret key here";
 
 // Passport session setup.
 //   To support persistent login sessions, Passport needs to be able to
